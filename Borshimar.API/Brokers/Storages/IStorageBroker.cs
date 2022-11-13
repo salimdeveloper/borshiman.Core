@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Borshimar.API.Infrastructure.Brokers
+namespace Borshimar.API.Brokers.Storages
 {
-    public interface IStorageBroker
+    public partial interface IStorageBroker
     {
 
     }

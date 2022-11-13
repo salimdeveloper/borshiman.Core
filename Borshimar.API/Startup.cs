@@ -1,3 +1,4 @@
+using Borshimar.API.Brokers.Storages;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,6 +29,8 @@ namespace Borshimar.API
         {
 
             services.AddControllers();
+            services.AddDbContext<StorageBroker>();
+            services.AddTransient<IStorageBroker,StorageBroker>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Borshimar.API", Version = "v1" });
