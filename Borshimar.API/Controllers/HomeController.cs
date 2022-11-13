@@ -7,5 +7,8 @@ namespace Borshimar.API.Controllers
     [ApiController]
     public class HomeController : ControllerBase
     {
+        [HttpGet]
+        public ActionResult<string> Get() =>
+                    Ok("Yup its working !!!");
     }
 }
