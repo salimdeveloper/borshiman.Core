@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Borshimar.API", "Borshimar.API\Borshimar.API.csproj", "{A4FB6E4D-837A-443D-97EB-BBBC1F339795}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Borshiman.Core", "Borshimar.API\Borshiman.Core.csproj", "{A4FB6E4D-837A-443D-97EB-BBBC1F339795}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Borshimar.Core.Tests.Unit", "Borshimar.Core.Tests.Unit\Borshimar.Core.Tests.Unit.csproj", "{E31CFF2F-136E-4050-9125-953943D3E927}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Borshiman.Core.Tests.Unit", "Borshimar.Core.Tests.Unit\Borshiman.Core.Tests.Unit.csproj", "{E31CFF2F-136E-4050-9125-953943D3E927}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Borshimar.Core.Tests.Acceptance", "Borshimar.Core.Tests.Acceptance\Borshimar.Core.Tests.Acceptance.csproj", "{453ADF47-9E03-4638-9380-2EA2EC526C6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Borshiman.Core.Tests.Acceptance", "Borshimar.Core.Tests.Acceptance\Borshiman.Core.Tests.Acceptance.csproj", "{453ADF47-9E03-4638-9380-2EA2EC526C6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

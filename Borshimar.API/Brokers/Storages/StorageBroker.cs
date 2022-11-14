@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using EFxceptions;
 
-namespace Borshimar.API.Brokers.Storages
+namespace Borshiman.Core.Brokers.Storages
 {
     public partial class StorageBroker :EFxceptionsContext, IStorageBroker
     {

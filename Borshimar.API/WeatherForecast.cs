@@ -1,6 +1,6 @@
 using System;
 
-namespace Borshimar.API
+namespace Borshiman.Core
 {
     public class WeatherForecast
     {

@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Borshimar.API\Borshimar.API.csproj" />
+    <ProjectReference Include="..\Borshimar.API\Borshiman.Core.csproj" />
   </ItemGroup>
 
 </Project>

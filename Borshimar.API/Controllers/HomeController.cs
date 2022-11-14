@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Borshimar.API.Controllers
+namespace Borshiman.Core.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

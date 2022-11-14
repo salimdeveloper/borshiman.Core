@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Borshimar.Core.Tests.Acceptance.Brokers
+namespace Borshiman.Core.Tests.Acceptance.Brokers
 {
     [CollectionDefinition(nameof(ApiTestCollection))]
     public class ApiTestCollection : ICollectionFixture<ApiBroker>

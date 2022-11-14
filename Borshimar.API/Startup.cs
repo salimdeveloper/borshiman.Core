@@ -1,4 +1,4 @@
-using Borshimar.API.Brokers.Storages;
+using Borshiman.Core.Brokers.Storages;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -13,7 +13,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Borshimar.API
+namespace Borshiman.Core
 {
     public class Startup
     {
@@ -33,7 +33,7 @@ namespace Borshimar.API
             services.AddTransient<IStorageBroker,StorageBroker>();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Borshimar.API", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Borshiman.Core", Version = "v1" });
             });
         }
 
@@ -44,7 +44,7 @@ namespace Borshimar.API
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Borshimar.API v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Borshiman.Core v1"));
             }
 
             app.UseHttpsRedirection();

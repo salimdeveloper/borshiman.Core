@@ -1,7 +1,7 @@
 using Xunit;
 using FluentAssertions;
 
-namespace Borshimar.Core.Tests.Unit
+namespace Borshiman.Core.Tests.Unit
 {
     public class DeleteMe
     {

@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Borshimar.Core.Tests.Acceptance.Brokers
+namespace Borshiman.Core.Tests.Acceptance.Brokers
 {
     public partial class ApiBroker
     {

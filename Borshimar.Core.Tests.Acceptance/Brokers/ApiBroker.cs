@@ -1,4 +1,4 @@
-﻿using Borshimar.API;
+﻿using Borshiman.Core;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Mvc.Testing;
 using RESTFulSense.Clients;
@@ -9,7 +9,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Borshimar.Core.Tests.Acceptance.Brokers
+namespace Borshiman.Core.Tests.Acceptance.Brokers
 {
     public partial class ApiBroker
     {

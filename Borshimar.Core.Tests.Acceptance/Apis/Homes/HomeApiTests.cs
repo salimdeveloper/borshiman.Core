@@ -1,4 +1,4 @@
-﻿using Borshimar.Core.Tests.Acceptance.Brokers;
+﻿using Borshiman.Core.Tests.Acceptance.Brokers;
 using FluentAssertions;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Borshimar.Core.Tests.Acceptance.Apis.Homes
+namespace Borshiman.Core.Tests.Acceptance.Apis.Homes
 {
     [Collection(nameof(ApiTestCollection))]
     public class HomeApiTests
