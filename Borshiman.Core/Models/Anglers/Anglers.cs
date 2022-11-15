@@ -1,5 +1,6 @@
 ﻿using System.Net;
 using System;
+using Borshiman.Core.Models.Addresses;
 
 namespace Borshiman.Core.Models
 {
@@ -16,10 +17,5 @@ namespace Borshiman.Core.Models
         public bool MobileVerified { get; set; }
         public string Email { get; set; }
 
-    }
-    public class Address
-    {
-        public string City { get; set; }
-        public int PinCode { get; set; }
     }
 }
