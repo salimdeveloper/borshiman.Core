@@ -1,4 +1,4 @@
-﻿namespace Borshiman.Core.Models
+﻿namespace Borshiman.Core.Models.Address
 {
     public class Address
     {

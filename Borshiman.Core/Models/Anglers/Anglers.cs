@@ -1,6 +1,7 @@
 ﻿using System;
+using Adr = Borshiman.Core.Models.Address;
 
-namespace Borshiman.Core.Models
+namespace Borshiman.Core.Models.Anglers
 {
     public class Anglers
     {
@@ -10,7 +11,7 @@ namespace Borshiman.Core.Models
         public DateTime BirthDate { get; set; }
         public string Gender { get; set; }
         public string PlayingHand { get; set; }
-        public Address Address { get; set; }
+        public Adr.Address Address { get; set; }
         public long MobileNo { get; set; }
         public bool MobileVerified { get; set; }
         public string Email { get; set; }
