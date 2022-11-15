@@ -1,6 +1,4 @@
-﻿using System.Net;
-using System;
-using Borshiman.Core.Models.Addresses;
+﻿using System;
 
 namespace Borshiman.Core.Models
 {
