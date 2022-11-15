@@ -13,10 +13,10 @@
     </PackageReference>
     <PackageReference Include="RESTFulSense" Version="2.9.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Xeption" Version="2.5.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\Organizers\" />
     <Folder Include="Services\Foundations\" />
     <Folder Include="Services\Orchestrations\" />
     <Folder Include="Services\Processings\" />
